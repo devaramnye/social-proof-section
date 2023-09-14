@@ -1,0 +1,103 @@
+/* RESET
+   ========================================================================== */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+
+
+/* VARIABLES
+   ========================================================================== */
+:root {
+
+  /*PRIMARY COLOR */
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  /* NEUTRAL COLOR */
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+
+
+
+/* MAIN PART
+   ========================================================================== */
+
+body {
+  background: 
+    url(./images/bg-pattern-top-mobile.svg) top no-repeat, 
+    url(./images/bg-pattern-bottom-mobile.svg) bottom no-repeat;
+  font-family: 'League Spartan', sans-serif;
+}
+
+main {
+  padding: 1rem;
+}
+
+.test {
+  text-align: center;
+}
+
+.heading--color { color: var(--very-dark-magenta); }
+.heading--size { font-size: 2rem; }
+.heading--weight { font-weight: 700; }
+
+.paragraph--color { color: var(--dark-grayish-magenta) }
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ratingone {
+  background: var(--light-grayish-magenta);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+
+.ratingone__p--color { color: var(--very-dark-magenta) }
+.ratingone__p--weight { font-weight: 600; }
+.ratingone__p--size { font-size: 0.938rem; }
+
+.ratingtwo {
+  background: var(--light-grayish-magenta);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+
+.ratingtwo__p--color { color: var(--very-dark-magenta) }
+.ratingtwo__p--weight { font-weight: 600; }
+.ratingtwo__p--size { font-size: 0.938rem; }
+
+.ratingthree {
+  background: var(--light-grayish-magenta);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+
+.ratingthree__p--color { color: var(--very-dark-magenta) }
+.ratingthree__p--weight { font-weight: 600; }
+.ratingthree__p--size { font-size: 0.938rem; }
